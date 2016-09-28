@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.qk.practice</groupId>
-	<artifactId>QKPracticeService</artifactId>
+	<artifactId>HiberSpringMVCDemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
     <url>http://maven.apache.org</url>
@@ -159,7 +159,7 @@
 					<version>2.2</version>
 					<configuration>
 						<warSourceDirectory>src/main/webapp</warSourceDirectory>
-						<warName>QKPracticeService</warName>
+						<warName>HiberSpringMVCDemo</warName>
 						<failOnMissingWebXml>false</failOnMissingWebXml>
 					</configuration>
 				</plugin>
@@ -184,6 +184,6 @@
 			    
 			</plugins>
 		</pluginManagement>
-		<finalName>QKPracticeService</finalName>
+		<finalName>HiberSpringMVCDemo</finalName>
 	</build>
 </project>
